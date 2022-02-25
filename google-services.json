@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "809865201014",
+    "project_id": "trendar",
+    "storage_bucket": "trendar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809865201014:android:f3a693df01483c1c80a657",
+        "android_client_info": {
+          "package_name": "com.tender"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809865201014-as0259r3d3smf98jrtig49c8aj7od73i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChvtYiHHWOPZ_cF7eOlp_myfkWHrPqfho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809865201014-as0259r3d3smf98jrtig49c8aj7od73i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "809865201014-ggsqo209hlsn7bo5ojeib0q4qpl7144u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tender"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

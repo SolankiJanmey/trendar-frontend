@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "tenderApp",
+    "slug": "tenderApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tender",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "809865201014-ggsqo209hlsn7bo5ojeib0q4qpl7144u.apps.googleusercontent.com"
+        }
+      }
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.tender",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
