@@ -1,9 +1,9 @@
-import { StatusBar } from "expo-status-bar";
-import React, { useState, useEffect } from "react";
-import { StyleSheet, Text, View, SafeAreaView } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
-import { MainStackNavigator } from "./src/navigation/MainStackNavigator";
 import * as Font from 'expo-font';
+import { StatusBar } from "expo-status-bar";
+import React, { useEffect, useState } from "react";
+import { SafeAreaView, StyleSheet, View } from "react-native";
+import { MainStackNavigator } from "./src/navigation/MainStackNavigator";
 
 export default function App() {
 
